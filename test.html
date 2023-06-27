@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <style>
+        #gallery {
+            padding-top: 120px;
+        }
+
+        .gallery-img-wp {
+            padding: 20px;
+            border-radius: 30px;
+            background: linear-gradient(145deg, #ececec, #ffffff);
+            box-shadow: 20px 20px 60px #dadada, -20px -20px 60px #ffffff;
+            transition: var(--transition);
+            margin-bottom: 30px;
+            display: flex;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 340px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .gallery-img {
+            height: 280px;
+        }
+
+        .gallery-img-wp {
+            padding: 15px;
+        }
+
+        #gallery {
+            padding-top: 90px;
+        }
+
+        .gallery-img {
+            height: 30vw;
+        }
+
+        .gallery-img {
+            height: 50vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row" id="gallery">
+        <div class="col-lg-10 m-auto">
+            <div class="book-table-img-slider" id="icon">
+                <div class="swiper-wrapper">
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
+                        class="book-table-img back-img swiper-slide"
+                        style="background-image: url('./images/bg-frozen.avif');"></a>
+                </div>
+                <div class="swiper-button-wp">
+                    <div class="swiper-button-prev swiper-button">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-button-next swiper-button">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
