@@ -46,16 +46,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //swiper
 
-const swiper = new Swiper('.swiper', {
-    spaceBetween: 100,
-    slidesPerView: 3,
-    loop: true,
-    speed: 7000,
-    autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-    },
-    allowTouchMove: false,
-    keyboard: false,
+// const swiper = new Swiper('.swiper', {
+//     spaceBetween: 100,
+//     slidesPerView: 3,
+//     loop: true,
+//     speed: 7000,
+//     autoplay: {
+//         delay: 0,
+//         disableOnInteraction: false,
+//     },
+//     allowTouchMove: false,
+//     keyboard: false,
 
-});
+// });

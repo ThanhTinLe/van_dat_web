@@ -1,118 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
-        #gallery {
-            padding-top: 120px;
-        }
-
-        .gallery-img-wp {
-            padding: 20px;
-            border-radius: 30px;
-            background: linear-gradient(145deg, #ececec, #ffffff);
-            box-shadow: 20px 20px 60px #dadada, -20px -20px 60px #ffffff;
-            transition: var(--transition);
-            margin-bottom: 30px;
+        #slide {
             display: flex;
+            list-style: none;
+            overflow-x: auto;
         }
 
-        .gallery-img {
-            width: 100%;
-            height: 340px;
-            display: inline-block;
-            border-radius: 10px;
-        }
-
-        .gallery-img {
-            height: 280px;
-        }
-
-        .gallery-img-wp {
-            padding: 15px;
-        }
-
-        #gallery {
-            padding-top: 90px;
-        }
-
-        .gallery-img {
-            height: 30vw;
-        }
-
-        .gallery-img {
-            height: 50vw;
+        .slide--item {
+            padding: 0 30px;
         }
     </style>
 </head>
 
 <body>
-    <div class="row" id="gallery">
-        <div class="col-lg-10 m-auto">
-            <div class="book-table-img-slider" id="icon">
-                <div class="swiper-wrapper">
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
 
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
-                    <a href="./images/bg-frozen.avif" data-fancybox="table-slider"
-                        class="book-table-img back-img swiper-slide"
-                        style="background-image: url('./images/bg-frozen.avif');"></a>
-                </div>
-                <div class="swiper-button-wp">
-                    <div class="swiper-button-prev swiper-button">
-                        <i class="fas fa-chevron-left"></i>
-                    </div>
-                    <div class="swiper-button-next swiper-button">
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                </div>
-
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
+    <div>
+        <ul id="slide">
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+            <li class="slide--item">
+                <img src="./images/giphy.gif" alt="">
+            </li>
+        </ul>
     </div>
 
-    <dl>
-        <dt>Coffee</dt>
-        <dd>Black hot drink</dd>
-
-        <dt>Milk</dt>
-        <dd>White cold drink</dd>
-    </dl>
-
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            loop: true,
-            autoplay: {
-                delay: 3000,
-            },
-        });
-
-
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

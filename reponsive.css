@@ -1,0 +1,8 @@
+@media only screen and (max-width: 390px) {
+  body {
+    font-size: 8px;
+  }
+  header #navBar .company-name {
+    display: none;
+  }
+}/*# sourceMappingURL=reponsive.css.map */

@@ -12,6 +12,8 @@ html {
 body {
   margin: 0;
   color: var(--element-color-2);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
 }
 body h1 {
   font-family: "Inter", sans-serif;
@@ -124,7 +126,7 @@ header #navBar #menu ul li a:hover {
   transition: 0.5s;
 }
 header .inner-header {
-  height: 73vh;
+  height: 67vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -283,14 +285,6 @@ section {
 }
 #storage .tabs .tab-2:last-child [type=radio]:checked + div {
   margin-left: -100%;
-}
-
-.swiper-slide img {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  border-radius: 10px;
 }
 
 #company__content {

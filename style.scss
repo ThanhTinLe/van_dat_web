@@ -20,7 +20,9 @@ body {
   color: var(--element-color-2);
   // font-family: "Roboto", Arial, Helvetica, sans-serif;
   // font-family: "Roboto Slab", serif;
-  // font-size: 16px;
+
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
 }
 
 .scroll-to-top {
@@ -145,7 +147,7 @@ header {
   }
 
   .inner-header {
-    height: 73vh;
+    height: 67vh;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -324,13 +326,6 @@ section {
   .tabs .tab-2:last-child [type="radio"]:checked + div {
     margin-left: -100%;
   }
-}
-
-.swiper-slide img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border-radius: 10px;
 }
 
 #company__content {

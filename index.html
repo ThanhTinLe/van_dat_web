@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="countUp.css">
+    <link rel="stylesheet" href="swipper.css">
+    <link rel="stylesheet" href="reponsive.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,7 +25,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +33,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
@@ -42,7 +49,7 @@
             <div class="logo">
                 <a href="#" class="d-flex">
                     <img src="./images/logo.png" alt="logo">
-                    <span class="p-3">VẠN ĐẠT</span>
+                    <span class="p-3 company-name">VẠN ĐẠT</span>
                 </a>
             </div>
             <div class=" d-flex justify-content-center align-items-center" id="menu">
@@ -95,9 +102,36 @@
 
 
     <section id="storage" class="mt-5 scroll-animation">
-        <div class="title text-center mb-5">
+        <div class="title text-center">
             <h1>TỔNG QUAN KHO LẠNH</h1>
         </div>
+
+        <hr style="width: 90%;">
+        <div class="wrapper">
+            <div class="container">
+                <h2 class="text-center">ĐỐI TÁC</h2>
+                <span class="num count-up" data-val="350">000</span>
+                <span class="text">ĐƠN VỊ</span>
+            </div>
+            <div class="container">
+                <h2 class="text-center">QUY MÔ</h2>
+                <span class="num count-up" data-val="2">000</span>
+                <span class="text">CƠ SỞ</span>
+            </div>
+            <div class="container">
+                <h2 class="text-center">ĐẦU TƯ</h2>
+                <span class="num count-up" data-val="325">000</span>
+                <span class="text">TỶ ĐỒNG</span>
+            </div>
+            <div class="container">
+                <h2 class="text-center">SỨC CHỨA</h2>
+                <span class="num count-up" data-val="275">000</span>
+                <span class="text">NGÀN TẤN</span>
+            </div>
+        </div>
+
+        <hr style="width: 90%;">
+
         <div class="tabs mt-5">
             <div class="tab-2">
                 <label for="tab2-1">Kho lạnh Vạn Đạt 1</label>
@@ -129,32 +163,6 @@
                 </div>
             </div>
         </div>
-
-        <hr style="width: 90%;">
-        <div class="wrapper">
-            <div class="container">
-                <h2 class="text-center">ĐỐI TÁC</h2>
-                <span class="num count-up" data-val="350">000</span>
-                <span class="text">ĐƠN VỊ</span>
-            </div>
-            <div class="container">
-                <h2 class="text-center">QUY MÔ</h2>
-                <span class="num count-up" data-val="2">000</span>
-                <span class="text">CƠ SỞ</span>
-            </div>
-            <div class="container">
-                <h2 class="text-center">ĐẦU TƯ</h2>
-                <span class="num count-up" data-val="325">000</span>
-                <span class="text">TỶ ĐỒNG</span>
-            </div>
-            <div class="container">
-                <h2 class="text-center">SỨC CHỨA</h2>
-                <span class="num count-up" data-val="275">000</span>
-                <span class="text">NGÀN TẤN</span>
-            </div>
-        </div>
-
-        <hr style="width: 90%;">
 
     </section>
 
@@ -219,99 +227,188 @@
                         <h2 class="mb-5" style="font-size: 50px;">Thông tin công ty</h2>
                         <div class="row mb-3">
                             <div class="col-4">
-                                <h4>Tên công ty:</h4>
+                                <h5>Tên công ty:</h5>
                             </div>
                             <div class="col-8">
-                                <h5>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h5>
+                                <h6>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h6>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-4">
-                                <h4>Tên công ty:</h4>
+                                <h5>Tên công ty:</h5>
                             </div>
                             <div class="col-8">
-                                <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ea expedita facere
-                                    suscipit, quisquam id beatae perspiciatis dolorem nihil, quo dolores laborum eaque
-                                    in, nam molestias sunt numquam dolorum blanditiis!</h5>
+                                <h6>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h6>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-4">
-                                <h4>Tên công ty:</h4>
+                                <h5>Tên công ty:</h5>
                             </div>
                             <div class="col-8">
-                                <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ea expedita facere
-                                    suscipit, quisquam id beatae perspiciatis dolorem nihil, quo dolores laborum eaque
-                                    in, nam molestias sunt numquam dolorum blanditiis!</h5>
+                                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dignissimos error sit
+                                    ratione quia adipisci commodi, laboriosam magni, suscipit exercitationem quisquam
+                                    debitis eius tenetur. Inventore alias dignissimos aliquid doloribus dolorum!</h6>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-4">
-                                <h4>Tên công ty:</h4>
+                                <h5>Tên công ty:</h5>
                             </div>
                             <div class="col-8">
-                                <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ea expedita facere
-                                    suscipit, quisquam id beatae perspiciatis dolorem nihil, quo dolores laborum eaque
-                                    in, nam molestias sunt numquam dolorum blanditiis!</h5>
+                                <h6>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h6>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-4">
-                                <h4>Tên công ty:</h4>
+                                <h5>Tên công ty:</h5>
                             </div>
                             <div class="col-8">
-                                <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ea expedita facere
-                                    suscipit, quisquam id beatae perspiciatis dolorem nihil, quo dolores laborum eaque
-                                    in, nam molestias sunt numquam dolorum blanditiis!</h5>
+                                <h6>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h6>
                             </div>
                         </div>
-
-
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <h5>Tên công ty:</h5>
+                            </div>
+                            <div class="col-8">
+                                <h6>Công ty TNHH TM-DV Quốc tế Hoàn Vũ</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <h5>Tên công ty:</h5>
+                            </div>
+                            <div class="col-8">
+                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi dignissimos
+                                    assumenda earum facere corrupti, repellendus quae, dolor laborum, ipsa
+                                    necessitatibus. Debitis, quis! Dolorem blanditiis possimus ducimus numquam, expedita
+                                    deserunt.
+                                </h6>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
         <div class="company__carousel " style="margin-top: 200px;">
-            <div class="swiper">
-                <!-- Additional required wrapper -->
+            <!-- <div class="swiper">
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
+                        <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ">
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/bg-frozen.avif" alt="" width="800">
-                    </div>
+                </div> -->
 
+            <div id="infinite" class="highway-slider">
+                <div class="highway-barrier">
+                    <ul class="highway-lane">
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
+                        <li class="highway-car">
+                            <div class="img-content">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="hoàn vũ" />
+                            </div>
+                        </li>
 
+                    </ul>
                 </div>
-
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+            <!-- </div> -->
         </div>
     </section>
 
