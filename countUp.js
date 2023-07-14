@@ -1,7 +1,3 @@
-
-
-//
-
 // Lấy tất cả các phần tử "count-up"
 const countUpElements = document.querySelectorAll('.count-up');
 
