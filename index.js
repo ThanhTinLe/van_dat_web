@@ -46,56 +46,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //swiper
 
-// const swiper = new Swiper('.swiper', {
-//     spaceBetween: 100,
-//     slidesPerView: 3,
-//     loop: true,
-//     speed: 7000,
-//     autoplay: {
-//         delay: 0,
-//         disableOnInteraction: false,
-//     },
-//     allowTouchMove: false,
-//     keyboard: false,
+// // Lấy tất cả các slide
+// const slides = document.querySelectorAll('.highway-car');
 
+// // Tạo một slide mới sao chép từ slide đầu tiên và thêm vào sau slide cuối cùng
+// const firstSlide = slides[0].cloneNode(true);
+// document.querySelector('.highway-lane').appendChild(firstSlide);
+
+// // Khởi tạo animation cho tất cả các slide
+// slides.forEach(slide => {
+//     slide.style.animation = 'infinityloop 10s linear infinite';
 // });
 
-var swiper = new Swiper(".mySwiper", {
-    // Optional parameters
-    // slidesPerView: 5,
-    spaceBetween: 0,
-    centeredSlides: true,
-    speed: 1500,
-    autoplay: {
-        delay: 0,
-    },
-    loop: true,
-    slidesPerView: 'auto',
-    allowTouchMove: false,
-    disableOnInteraction: true,
-    // If we need pagination
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-    // Navigation arrows
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    // },
-    // Breakpoints
-    // breakpoints: {
-    //   640: {
-    //     slidesPerView: 2,
-    //     spaceBetween: 20,
-    //   },
-    //   768: {
-    //     slidesPerView: 4,
-    //     spaceBetween: 40,
-    //   },
-    //   1024: {
-    //     slidesPerView: 5,
-    //     spaceBetween: 50,
-    //   },
-    // },
-});
