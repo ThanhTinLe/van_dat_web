@@ -178,6 +178,16 @@ header .parallax > use:nth-child(4) {
   animation-duration: 20s;
 }
 
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
 @media (max-width: 768px) {
   header .waves {
     height: 40px;
@@ -194,7 +204,7 @@ header .parallax > use:nth-child(4) {
 }
 
 section {
-  padding: 100px;
+  padding: 50px 100px;
   margin: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -342,7 +352,6 @@ section {
 footer {
   background-color: var(--element-color-2);
   padding: 30px;
-
   ul {
     list-style: none;
     li {
@@ -363,13 +372,13 @@ footer {
 .company__carousel {
   #infinite {
     overflow-x: hidden;
-    height: calc(300px + 20px);
+    height: calc(300px + 40px);
     ul.highway-lane {
       display: flex;
 
       li.highway-car {
         padding: 10px;
-        animation: infinityloop 5s linear infinite;
+        animation: infinityloop 25s linear infinite;
         list-style: none;
 
         div.img-content {
@@ -385,9 +394,9 @@ footer {
 
 @keyframes infinityloop {
   0% {
-    transform: translateX(100%);
+    transform: translateX(10%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-850%);
   }
 }
